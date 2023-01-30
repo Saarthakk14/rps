@@ -1,7 +1,7 @@
 input.onButtonPressed(Button.A, function () {
     P1 += 1
     Rounds += 1
-    OLED.writeNumNewLine(P1)
+    OLED.writeNumNewLine(Rounds)
     OLED.writeNumNewLine(Rounds)
 })
 input.onButtonPressed(Button.AB, function () {
